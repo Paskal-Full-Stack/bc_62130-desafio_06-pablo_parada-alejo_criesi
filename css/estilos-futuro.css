@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+}
+
+body {
+    background: linear-gradient(45deg, #d937ad, #1e00ff);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 42px;
+    text-align: center;
+    color: #e8eaed;
+    margin: 0 10%;
+    font-weight: 900;
+    min-width: 500px;
+    border-bottom: 10px #ff00d9 inset;
+    border-top: 10px #ff00d9 outset;
+    border-left: 30px rgba(255, 255, 255, 0) inset;
+    border-right: 30px rgba(255, 255, 255, 0) inset;
+    border-radius: 15px 200px 30px 200px;
+    -moz-border-radius: 15px 200px 30px 200px;
+    -webkit-border-radius: 15px 200px 30px 200px;
+    -webkit-box-shadow: inset 0px 0px 20px 0px rgba(0, 208, 255, 1);
+    -moz-box-shadow: inset 0px 0px 20px 0px rgba(0, 208, 255, 1);
+    box-shadow: inset 0px 0px 20px 0px rgba(0, 208, 255, 1);
+}
+
+legend {
+    background-color:#d937ad;
+    color: #ebf6fd;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 208, 255, 1);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0, 208, 255, 1);
+    box-shadow: 0px 0px 20px 0px rgba(0, 208, 255, 1);
+}
+
+fieldset {
+    width: 60em;
+    height: auto;
+    padding: 20px;
+    margin: 20px 0 20px 0;
+    background-color: #8235776e;
+    text-align: center;
+    border: 2px solid #3b35eb;
+    border-radius: 5px;
+    -webkit-box-shadow:  0px 0px 20px 0px rgba(0, 208, 255, 1);
+    -moz-box-shadow:  0px 0px 20px 0px rgba(0, 208, 255, 1);
+     box-shadow:  0px 0px 20px 0px rgba(0, 208, 255, 1);
+}
+
+fieldset p {
+    padding: 10px 0;
+}
+
+.tres p {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+}
+
+fieldset div {
+    text-align: left;
+    margin: 20px 0px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #9db29a;
+    border-radius: 3px;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    color: #cc33b2;
+}
+
+.input {
+    width: 50vw;
+    border-radius: 20px;
+}
+
+
+input:focus {
+    background-color:#942e85c4;
+}
+
+fieldset:focus-within {
+    background-color: rgb(26, 0, 170);
+    -webkit-box-shadow: inset 0px 0px 20px 0px rgb(247, 0, 255);
+    -moz-box-shadow: inset 0px 0px 20px 0px rgb(247, 0, 255);
+    box-shadow: inset 0px 0px 20px 0px rgb(247, 0, 255);
+}
+
+fieldset:focus-within>legend {
+    background-color: rgb(17, 5, 180);
+    -webkit-box-shadow: inset 0px 0px 20px 0px rgb(247, 0, 255);
+    -moz-box-shadow: inset 0px 0px 20px 0px rgb(247, 0, 255);
+    box-shadow: inset 0px 0px 20px 0px rgb(247, 0, 255);
+}
+
+input::placeholder {
+    text-align: right;
+    color: #a6c1b9;
+    font-size: 18px;
+}
+
+select {
+    width: 480px;
+    padding: 10px;
+    border: 1px solid #9db29a;
+    border-radius: 3px;
+    color: #9db29a;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+textarea {
+    border: 1px solid #9db29a;
+    border-radius: 3px;
+    width: 50vw;
+    letter-spacing: 0.2em;
+    color: #cc33b2;
+}
+
+hr {
+    border: 15px dotted #d400ff;
+    border-top: 0px;
+    margin: 60px 300px;
+}
+
+div {
+    text-align: center;
+}
+
+div input {
+    background-color: #2b3d37;
+    color: #b29ab2;
+    border: 1px solid #9db29a;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 10px 10px 0 10px;
+}
+
+div input:hover {
+    background-color: #9db29a;
+    color: #2b3d37;
+    border: 1px solid #9db29a;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 10px 10px 0 10px;
+}
+
+::placeholder {
+    text-align: center;
+}
+
+.acepto p {
+    color: white;
+    text-align: left;
+    margin: 12px 0 12px 0;
+}
+option {
+    color: black;
+}
+
+select {
+    width: 50vw;
+    color: #cc33b2;
+}
+
+input[type="checkbox"]:checked+label {
+    background-color: #cc33b2;
+    border-radius: 100%;
+    padding: 8px;
+}
+
+input[class="outcheckbox"]:checked+label {
+    background-color: #4533cc;
+    border-radius:20px;
+    padding: 8px;
+}

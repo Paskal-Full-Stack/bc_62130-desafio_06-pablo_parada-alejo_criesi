@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #1f2023;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 42px;
+    text-align: center;
+    color: #e8eaed;
+    font-weight: 900;
+    margin: 40px 26% 40px 26%;
+    border: 20px #4d6d63 inset;
+    border-top: 20px #4d6d63 outset;
+    border-left: 30px rgba(255, 255, 255, 0) inset;
+    border-right: 30px rgba(255, 255, 255, 0) inset;
+}
+
+legend {
+    background-color: #4d6d63;
+    color: #ebf6fd;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+}
+
+fieldset {
+    width: 60em;
+    height: auto;
+    padding: 20px;
+    margin: 20px 0 20px 0;
+    background-color: #d6e2de;
+    text-align: center;
+    border: 2px solid #4d6d63;
+    border-radius: 5px;
+}
+
+fieldset p {
+    padding: 10px 0;
+}
+
+.tres p {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+}
+
+fieldset div {
+    text-align: left;
+    margin: 20px 0px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #9db29a;
+    border-radius: 3px;
+}
+
+.input {
+    width: 480px;
+}
+
+input:focus {
+    background-color: #4d6d63;
+}
+
+fieldset:focus-within {
+    background-color: #a6c1b9;
+}
+
+fieldset:focus-within>legend {
+    background-color: #2b3d37;
+}
+
+input::placeholder {
+    text-align: right;
+    color: #a6c1b9;
+    font-size: 18px;
+}
+
+select {
+    width: 480px;
+    padding: 10px;
+    border: 1px solid #9db29a;
+    border-radius: 3px;
+    color: #9db29a;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+textarea {
+    border: 1px solid #9db29a;
+    border-radius: 3px;
+}
+
+hr {
+    border: 15px dotted #d6e2de;
+    border-top: 0px;
+    margin: 60px 300px;
+}
+
+div {
+    text-align: center;
+}
+
+div input {
+    background-color: #2b3d37;
+    color: #9db29a;
+    border: 1px solid #9db29a;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 10px 10px 0 10px;
+}
+
+div input:hover {
+    background-color: #9db29a;
+    color: #2b3d37;
+    border: 1px solid #9db29a;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 10px 10px 0 10px;
+}
+
+::placeholder {
+    text-align: center;
+}
+
+.acepto p {
+    color: white;
+    text-align: left;
+    margin: 12px 0 12px 0;
+}
